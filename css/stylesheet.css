@@ -1,18 +1,17 @@
 h1 {
-color:#2929FF;    
+color:#5D001E;    
 }
 
 body {
-background-color:beige;
+background-color: #E3E2DF;
 }
 
 p {
-color: #931f1f
+color: #5D001E;
 }
 
 .nav-area {
-    background-color: #931f1f;
-    text-align: center;
+    background-color: #E3AFBC;
 }
 
 .myname_text {
