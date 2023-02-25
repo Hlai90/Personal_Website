@@ -1,19 +1,74 @@
 h1 {
-color:#5D001E;    
+    color: #5D001E;    
 }
 
 body {
-background-color: #E3E2DF;
+    background-color: #E3E2DF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
 }
 
 p {
-color: #5D001E;
+    color: #5D001E;
 }
 
-.nav-area {
+header, footer {
     background-color: #E3AFBC;
 }
 
-.myname_text {
-    font-family: 'Montserrat', sans-serif;
+.flexcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.gridcontainer {
+    display: grid;
+}
+
+.gridcolumns2-3 {
+    grid-template-columns: 2fr 1fr;
+}
+
+.aligncenter {
+    align-items: center;
+    justify-content: center;
+}
+
+.gap8 {
+    gap: 8px;
+}
+
+.gap16 {
+    gap: 16px;
+}
+
+.gap24 {
+    gap: 24px;
+}
+
+.padding8 {
+    padding: 8px;
+}
+
+.padding16 {
+    padding: 16px;
+}
+
+.padding24 {
+    padding: 24px;
 }

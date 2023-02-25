@@ -1,41 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Personal Website</title>
-    <link href="css/stylesheet.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <nav class="nav-area">
-        <a href="misc/course.html">My Courses</a>
-        <a href="misc/school.html">My School</a>
-      </nav>
-      <h1 class="myname_text">Howard Lai</h1>
-      <img
-        src="images/npc_frame2.png"
-        alt="picture of me"
-        width="250"
-        height="250"
-      />
-    </header>
-  <article>
-    <main>
-      <h2>About me</h2>
-      <p>
-        Hi, My name is <strong>Howard</strong> and I am excited to be in this
-        program. I chose the<em> Computer Information Technology</em> as my
-        program because I believe that there are many great job prospects in the
-        future and I would like to learn more. I am mainly interested in
-        cybersecurity since security has always been my long term goal. Learning
-        languages such as <em>python</em>, and <em>javascript</em> are really
-        enjoyable. I have a passion for programming and hope to continue on this
-        journey My hobbies include things like video game, badminton, and
-        programming!
-      </p>
-    </main>
-  </article>
-    <footer></footer>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Personal Website</title>
+        <link href="css/stylesheet.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="flexcontainer">
+            <header class="flexcontainer aligncenter padding16 gap8">
+                <div class="flexrow">
+                    <h1>Howard Lai</h1>
+                </div>
+                <nav class="flexrow gap16">
+                    <a href="misc/course.html">My Courses</a>
+                    <a href="misc/school.html">My School</a>
+                </nav>
+            </header>
+            <main>
+                <section class="gridcontainer gridcolumns2-3">
+                    <div class="flexcolumn gap24 padding16">
+                        <h2>About me</h2>
+                        <p>
+                            Hi, My name is <strong>Howard</strong> and I am excited to be in this
+                            program. I chose the<em> Computer Information Technology</em> as my
+                            program because I believe that there are many great job prospects in the
+                            future and I would like to learn more. I am mainly interested in
+                            cybersecurity since security has always been my long term goal. Learning
+                            languages such as <em>python</em>, and <em>javascript</em> are really
+                            enjoyable. I have a passion for programming and hope to continue on this
+                            journey My hobbies include things like video game, badminton, and
+                            programming!
+                        </p>
+                        <p>
+                            In my first term at BCIT, I learned a lot of things inside of my System
+                            Administrator class such as the hardware that makes up a computer and 
+                            software that is used to manage the processes of each hardware. In my
+                            Web Develeopment class, I learned how to create my own website using
+                            various methods such as flex and grid to layout each section of my 
+                            website.
+                        </p>
+                    </div>
+                    <div class="flexcolumn aligncenter">
+                        <img
+                            src="images/npc_frame2.png"
+                            alt="picture of me"
+                            width="250"
+                            height="250"
+                        />
+                    </div>
+                </section>
+            </main>
+            <footer class="flexcontainer aligncenter padding8">
+                <p>&copy; 2023</p>
+            </footer>
+        </div>
+    </body>
 </html>
