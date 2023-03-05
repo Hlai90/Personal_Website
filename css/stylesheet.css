@@ -20,6 +20,10 @@ header, footer {
     background-color: #E3AFBC;
 }
 
+strong {
+    font-weight: 600;
+}
+
 .flexcontainer {
     display: flex;
     flex-direction: column;
@@ -40,8 +44,12 @@ header, footer {
     display: grid;
 }
 
-.gridcolumns2-3 {
+.gridcolumns2-1 {
     grid-template-columns: 2fr 1fr;
+}
+
+.gridcolumns1-2 {
+    grid-template-columns: 1fr 2fr;
 }
 
 .aligncenter {
@@ -61,6 +69,10 @@ header, footer {
     gap: 24px;
 }
 
+.gap64 {
+    gap: 64px;
+}
+
 .padding8 {
     padding: 8px;
 }
@@ -71,4 +83,13 @@ header, footer {
 
 .padding24 {
     padding: 24px;
+}
+
+li {
+    list-style: none;
+}
+
+.line_divider {
+    border-bottom: solid black 1px;
+    width: 315%;
 }

@@ -1,35 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Course Page</title>
-        <link href="../css/stylesheet.css" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <h1>My courses</h1>
-        </header>
-      <section>
-      <main>
-        <ul>
-            <li>
-              <a href="https://www.bcit.ca/outlines/20231089204/" target="_blank"
-                >ACIT 1515</a
-              >
-            </li>
-            <li>
-              <a href="https://www.bcit.ca/outlines/20231089205/" target="_blank"
-                >ACIT 1620</a
-              >
-            </li>
-            <li>
-              <a href="https://www.bcit.ca/outlines/20231089206/" target="_blank"
-                >ACIT 1630</a
-              >
-            </li>
-          </ul>
-        </main>
-        </section>
-    </body>
-
+	<head>
+		<meta charset="UTF-8" />
+		<title>Course Page</title>
+		<link href="../css/stylesheet.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="flexcontainer">
+			<header class="flexcontainer aligncenter padding16 gap8">
+				<div class="flexrow">
+					<h1>My courses</h1>
+				</div>
+				<nav class="flexrow gap16">
+					<a href="../index.html">My Home</a>
+					<a href="course.html"><strong>My Courses</strong></a>
+					<a href="school.html">My School</a>
+				</nav>
+			</header>
+			<main>
+				<section class="gridcontainer gridcolumns1-2">
+					<div class="flexcolumn gap64 padding16">
+						<li>
+							<a
+								href="https://www.bcit.ca/outlines/20231089204/"
+								target="_blank"
+								>ACIT 1515 Scripting for IT</a
+							>
+						</li>
+						<strong class="line_divider">Winter 2023</strong>
+					</div>
+					<div class="padding16">
+						<p>
+							This class focuses on a progamming language known as
+							python and helps students develop problem solving
+							skills
+						</p>
+					</div>
+				</section>
+				<section class="gridcontainer gridcolumns1-2">
+					<div class="flexcolumn gap64 padding16">
+						<li>
+							<a
+								href="https://www.bcit.ca/outlines/20231089205/"
+								target="_blank"
+								>ACIT Web Fundamental Technologies</a
+							>
+						</li>
+						<strong class="line_divider">Winter 2023</strong>
+					</div>
+					<div class="padding16">
+						<p>
+							This class focuses on a progamming language known as
+							python and helps students develop problem solving
+							skills
+						</p>
+					</div>
+				</section>
+				<section class="gridcontainer gridcolumns1-2">
+					<div class="flexcolumn gap64 padding16">
+						<li>
+							<a
+								href="https://www.bcit.ca/outlines/20231089206/"
+								target="_blank"
+								>ACIT 1630 Database Systema</a
+							>
+						</li>
+						<strong class="line_divider">Winter 2023</strong>
+					</div>
+					<div class="padding16">
+						<p>
+							This class focuses on a progamming language known as
+							python and helps students develop problem solving
+							skills
+						</p>
+					</div>
+				</section>
+			</main>
+			<footer class="flexcontainer aligncenter padding8">
+				<p>&copy; 2023</p>
+			</footer>
+		</div>
+	</body>
 </html>
